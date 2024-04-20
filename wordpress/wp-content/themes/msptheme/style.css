@@ -1,0 +1,40 @@
+/*
+
+Theme Name: Astra Child
+
+Theme URI: idk
+
+Description: Astra Child is a child theme of Astra
+
+Author: Loris Barallini
+
+Author URI: https://wpastra.com/
+
+Template: astra
+
+Version: 1.0.1
+
+Text Domain: Astra-child
+
+License: GNU General Public License v3 or later.
+
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+
+*/
+
+:root {
+--ast-global-color-0:#266705;
+--global-light-green: #86ff6a;
+}
+
+.menu-item > .menu-link {
+    background-color: var(--ast-global-color-0);
+}
+
+#main {
+    padding-top:60px
+}
+
+.hidden {
+    display: none !important;
+}
